@@ -33,6 +33,12 @@ public class PlayerControl : MonoBehaviour
 
     bool isJump = false;
 
+    [SerializeField] private float groundCheckRadius = 0.15f;
+    [SerializeField] private Transform groundCheckPos;
+    [SerializeField] private LayerMask whatIsGround;
+
+    private bool isGrounded = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -84,11 +90,25 @@ public class PlayerControl : MonoBehaviour
             rb2d.AddForce(new Vector2(horizontalMov * speed, 0f), ForceMode2D.Impulse);
         }
 
-        if (verticalMov > 0f && !isJumping)
+        isGrounded = GroundCheck();
+
+        Debug.Log(isGrounded);
+
+
+        if (isGrounded && Input.GetAxis("Jump") > 0f)
         {
-            rb2d.AddForce(new Vector2(0f, jumpforce * verticalMov), ForceMode2D.Impulse);
+            Debug.Log("SIUUUU");
+            rb2d.AddForce(new Vector2(0.0f,jumpforce * speed));
+            isGrounded = false;
         }
 
+        rb2d.velocity = new Vector2(horizontalMov, rb2d.velocity.y);
+
+    }
+
+    private bool GroundCheck()
+    {
+        return Physics2D.OverlapCircle(groundCheckPos.position, groundCheckRadius, whatIsGround);
     }
 
     private void Flip()
