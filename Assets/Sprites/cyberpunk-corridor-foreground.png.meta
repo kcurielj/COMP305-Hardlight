@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -256,6 +257,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      cyberpunk-corridor-foreground_3: -3531238918044215435
+      cyberpunk-corridor-foreground_5: 127954010597146995
+      cyberpunk-corridor-foreground_1: 3750017243048431243
+      cyberpunk-corridor-foreground_0: -4976300395368239279
+      cyberpunk-corridor-foreground_4: -3544720872397951233
+      cyberpunk-corridor-foreground_2: -2440002004452664163
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

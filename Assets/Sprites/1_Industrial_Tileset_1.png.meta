@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -688,6 +689,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      1_Industrial_Tileset_1_1: -4538689040294550724
+      1_Industrial_Tileset_1_10: 116728390600903929
+      1_Industrial_Tileset_1_16: -3117725590816365446
+      1_Industrial_Tileset_1_17: -4789437401807706346
+      1_Industrial_Tileset_1_8: 8956341743929914700
+      1_Industrial_Tileset_1_4: -2777389164190049436
+      1_Industrial_Tileset_1_9: -7786450927472428275
+      1_Industrial_Tileset_1_12: -4324887790341153811
+      1_Industrial_Tileset_1_5: 4676139951149496363
+      1_Industrial_Tileset_1_13: 8305933712228619147
+      1_Industrial_Tileset_1_0: 6333234943700428057
+      1_Industrial_Tileset_1_3: 5872318367768352853
+      1_Industrial_Tileset_1_14: 7873409575737850878
+      1_Industrial_Tileset_1_11: -6424952346224182825
+      1_Industrial_Tileset_1_18: -4221856117762975578
+      1_Industrial_Tileset_1_15: -265472170887411771
+      1_Industrial_Tileset_1_19: 6960186678124972528
+      1_Industrial_Tileset_1_22: 86465294118051408
+      1_Industrial_Tileset_1_21: -8545167131542742346
+      1_Industrial_Tileset_1_23: 6590309411458657689
+      1_Industrial_Tileset_1_7: -1407733058311255618
+      1_Industrial_Tileset_1_2: 7472293949643886116
+      1_Industrial_Tileset_1_20: -3635959009773293656
+      1_Industrial_Tileset_1_6: 587522960630075113
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

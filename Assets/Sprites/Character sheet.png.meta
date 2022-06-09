@@ -108,6 +108,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -784,6 +785,35 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Attack2: 2069228139899150069
+      Jump2: 1256072160741761956
+      Jump4: -6993553838908448458
+      Walk3: -1334532974527629742
+      Crouch2: -1340456208868059551
+      Idle5: -6283287244581338870
+      Character sheet_1: -6481692955906672524
+      Crouch5: 6039854104175758752
+      Walk6: 5645926312863725324
+      Attack5: -5451818860821408881
+      Idle3: -98649014537914912
+      Walk4: -4827764723886382482
+      Jump1: -7250022697459533904
+      Crouch4: 1758500493010923378
+      Character sheet_0: 729043429288378006
+      Walk2: -8091972331287190830
+      Attack1: 5520496615846329769
+      Attack4: 8230931494804925273
+      Jump5: 5228052191104706230
+      Idle1: -2295095624547290292
+      Idle4: -7125378043985348342
+      Crouch1: 6208369378478729772
+      Jump: -4636915018104383582
+      Crouch3: 6203673673684697768
+      Idle2: -1842956886702520205
+      Attack3: 2527356139761306180
+      Walk1: -2312657202950900807
+      Walk5: 6722701296128144162
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
