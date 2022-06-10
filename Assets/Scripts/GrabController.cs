@@ -21,7 +21,7 @@ public class GrabController : MonoBehaviour
 
         if (grabCheck.collider != null && grabCheck.collider.tag == "Box")
         {
-            if (Input.GetKey(KeyCode.Space))
+            if (Input.GetKey(KeyCode.LeftShift))
             {
                 grabCheck.collider.gameObject.transform.parent = boxHolder;
                 grabCheck.collider.gameObject.transform.position = boxHolder.position;
