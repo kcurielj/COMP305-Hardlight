@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 11212718}
   - component: {fileID: 11212719}
   - component: {fileID: 11212720}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Platform1
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -563,7 +563,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 22205460}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: target4b
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -927,7 +927,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 66259186}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: target3a
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1381,7 +1381,7 @@ GameObject:
   - component: {fileID: 152883529}
   - component: {fileID: 152883530}
   - component: {fileID: 152883528}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Platform5
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2028,7 +2028,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &191092988
@@ -2056,7 +2056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 208608303}
   - component: {fileID: 208608304}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: crystalHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2237,7 +2237,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &211946526
@@ -2911,7 +2911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 387278184}
   - component: {fileID: 387278185}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: flag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3322,7 +3322,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 422956169}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: target4a
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -3811,7 +3811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 477858488}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: target2b
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -3846,7 +3846,7 @@ GameObject:
   - component: {fileID: 492559563}
   - component: {fileID: 492559561}
   - component: {fileID: 492559564}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Platform2
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4210,6 +4210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red
       objectReference: {fileID: 0}
+    - target: {fileID: 8417031604664418319, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
 --- !u!1 &561560256
@@ -4222,7 +4226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 561560257}
   - component: {fileID: 561560258}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: crystalHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4390,7 +4394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 579940510}
   - component: {fileID: 579940511}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: crystalHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4723,7 +4727,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &619133692
@@ -4830,7 +4834,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 628744685}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: target1a
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -5029,7 +5033,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 696941092}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Puzzle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5069,7 +5073,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 706237643}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: target3b
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -5695,7 +5699,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 847418846}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: target5a
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -5871,6 +5875,10 @@ PrefabInstance:
     - target: {fileID: 8417031604664418319, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
       propertyPath: m_Name
       value: Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417031604664418319, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
@@ -6684,7 +6692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 970264093}
   - component: {fileID: 970264094}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: crystalHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7059,6 +7067,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow
       objectReference: {fileID: 0}
+    - target: {fileID: 8417031604664418319, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
 --- !u!1 &997158163
@@ -7204,7 +7216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1002974852}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Puzzle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7517,7 +7529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1041382109}
   - component: {fileID: 1041382110}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Flag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7605,7 +7617,7 @@ GameObject:
   - component: {fileID: 1048128513}
   - component: {fileID: 1048128512}
   - component: {fileID: 1048128511}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: Tilemap
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -22199,7 +22211,7 @@ GameObject:
   - component: {fileID: 1053718141}
   - component: {fileID: 1053718139}
   - component: {fileID: 1053718140}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CystalSwitch6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22760,6 +22772,7 @@ Transform:
   m_Children:
   - {fileID: 961720487}
   - {fileID: 247700148}
+  - {fileID: 1431363549}
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22791,9 +22804,15 @@ MonoBehaviour:
   stepTime: 1
   horizontalMov: 0
   verticalMov: 0
-  speed: 1
-  jumpforce: 18
+  speed: 5
+  jumpforce: 180
   isJumping: 0
+  groundCheckRadius: 0.15
+  groundCheckPos: {fileID: 1431363549}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 128
+  isDoubleJumpingEnabled: 0
 --- !u!50 &1071936797
 Rigidbody2D:
   serializedVersion: 4
@@ -23052,6 +23071,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yellow
       objectReference: {fileID: 0}
+    - target: {fileID: 8417031604664418319, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
 --- !u!4 &1091389756 stripped
@@ -23206,7 +23229,7 @@ GameObject:
   - component: {fileID: 1102934510}
   - component: {fileID: 1102934512}
   - component: {fileID: 1102934513}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CystalSwitch1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23337,7 +23360,7 @@ GameObject:
   - component: {fileID: 1105952874}
   - component: {fileID: 1105952873}
   - component: {fileID: 1105952872}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Platform6
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -23550,7 +23573,7 @@ GameObject:
   - component: {fileID: 1119665458}
   - component: {fileID: 1119665457}
   - component: {fileID: 1119665456}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CystalSwitch2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23681,7 +23704,7 @@ GameObject:
   - component: {fileID: 1123774912}
   - component: {fileID: 1123774913}
   - component: {fileID: 1123774911}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Platform4
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -23893,7 +23916,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1153535018}
   - component: {fileID: 1153535019}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: crystalHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24326,7 +24349,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1199570286
@@ -24502,7 +24525,7 @@ GameObject:
   - component: {fileID: 1252363718}
   - component: {fileID: 1252363716}
   - component: {fileID: 1252363717}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CystalSwitch5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25444,7 +25467,7 @@ GameObject:
   - component: {fileID: 1403279591}
   - component: {fileID: 1403279589}
   - component: {fileID: 1403279590}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Platform3
   m_TagString: Platform
   m_Icon: {fileID: 0}
@@ -25580,6 +25603,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1431363548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1431363549}
+  m_Layer: 6
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1431363549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431363548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0249, y: -0.2496, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1071936795}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1468940937
 GameObject:
   m_ObjectHideFlags: 0
@@ -26197,7 +26250,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1512860712}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: target1b
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -26625,7 +26678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1551938219}
   - component: {fileID: 1551938218}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27053,7 +27106,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1609382720}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27686,7 +27739,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1641250339
@@ -27714,7 +27767,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1645187110}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: target6b
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -27832,7 +27885,7 @@ GameObject:
   - component: {fileID: 1655234423}
   - component: {fileID: 1655234422}
   - component: {fileID: 1655234421}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CystalSwitch3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28164,7 +28217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1703050292}
   - component: {fileID: 1703050293}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: crystalHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28247,7 +28300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1732452235}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Puzzle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28328,6 +28381,10 @@ PrefabInstance:
     - target: {fileID: 8417031604664418319, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
       propertyPath: m_Name
       value: White
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417031604664418319, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
@@ -28716,6 +28773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue
       objectReference: {fileID: 0}
+    - target: {fileID: 8417031604664418319, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
 --- !u!4 &1752275712 stripped
@@ -28816,7 +28877,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1756841084}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: target2a
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -28935,7 +28996,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1787067742}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: target6a
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -29100,7 +29161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1845949981}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Puzzle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29389,7 +29450,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1867080483}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: target5b
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -29423,7 +29484,7 @@ GameObject:
   - component: {fileID: 1893703895}
   - component: {fileID: 1893703894}
   - component: {fileID: 1893703893}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CystalSwitch4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31513,6 +31574,10 @@ PrefabInstance:
     - target: {fileID: 8417031604664418319, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
       propertyPath: m_Name
       value: White
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417031604664418319, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8a7778a2249d6c4ba195c6c3b95a4f7, type: 3}

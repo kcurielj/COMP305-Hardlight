@@ -31,7 +31,13 @@ public class PlayerControl : MonoBehaviour
     bool facingRight = true;
     //private bool m_FacingRight = true;  
 
-    bool isJump = false;
+    [SerializeField] private float groundCheckRadius = 0.15f;
+    [SerializeField] private Transform groundCheckPos;
+    [SerializeField] private LayerMask whatIsGround;
+
+    private bool isGrounded = false;
+
+    [SerializeField] private bool isDoubleJumpingEnabled;
 
     // Start is called before the first frame update
     void Start()
@@ -48,14 +54,7 @@ public class PlayerControl : MonoBehaviour
         verticalMov = Input.GetAxisRaw("Vertical") * speed;
 
         animator.SetFloat("Speed", Mathf.Abs(horizontalMov));
-        animator.SetBool("Jump", false);
 
-        if (verticalMov > 0f)
-        {
-            isJump = true;
-            animator.SetBool("Jump", true);
-            jumpNoise.PlayOneShot(jumpClip, jumpVolume);
-        }
 
         if (horizontalMov != 0)
         {
@@ -66,6 +65,27 @@ public class PlayerControl : MonoBehaviour
                 timer = 0;
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (isGrounded)
+            {
+                Debug.Log("isJumping");
+
+                rb2d.AddForce(new Vector2(0.0f, jumpforce * speed));
+                isGrounded = false;
+                isDoubleJumpingEnabled = true;
+            }
+
+            else if (isDoubleJumpingEnabled)
+            {
+                rb2d.AddForce(new Vector2(0.0f, jumpforce * speed));
+                isGrounded = false;
+                isDoubleJumpingEnabled = false;
+
+            }
+        }
+
     }
 
     void FixedUpdate()
@@ -84,11 +104,15 @@ public class PlayerControl : MonoBehaviour
             rb2d.AddForce(new Vector2(horizontalMov * speed, 0f), ForceMode2D.Impulse);
         }
 
-        if (verticalMov > 0f && !isJumping)
-        {
-            rb2d.AddForce(new Vector2(0f, jumpforce * verticalMov), ForceMode2D.Impulse);
-        }
+        isGrounded = GroundCheck();
 
+        rb2d.velocity = new Vector2(horizontalMov, rb2d.velocity.y);
+
+    }
+
+    private bool GroundCheck()
+    {
+        return Physics2D.OverlapCircle(groundCheckPos.position, groundCheckRadius, whatIsGround);
     }
 
     private void Flip()
@@ -129,6 +153,8 @@ public class PlayerControl : MonoBehaviour
         {
             isJumping = true;
             animator.SetBool("Jump", true);
+            jumpNoise.PlayOneShot(jumpClip, jumpVolume);
+
         }
 
        
