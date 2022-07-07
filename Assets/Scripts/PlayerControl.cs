@@ -133,13 +133,7 @@ public class PlayerControl : MonoBehaviour
             animator.SetBool("Jump", false);
         }
 
-        else if(collision.gameObject.tag == "Spike")
-        {
-            FindObjectOfType<GameOverScreen>().GameOver();
-            deathNoise.PlayOneShot(deathClip, deathVolume);
-        }
-
-        else if(collision.gameObject.tag == "Bullet")
+        else if(collision.gameObject.tag == "Spike" || collision.gameObject.tag == "Bullet" || collision.gameObject.tag == "Saw")
         {
             FindObjectOfType<GameOverScreen>().GameOver();
             deathNoise.PlayOneShot(deathClip, deathVolume);
