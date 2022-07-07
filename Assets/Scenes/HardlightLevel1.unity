@@ -22711,7 +22711,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1071936793}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28.09, y: -12.44, z: 0}
+  m_LocalPosition: {x: -29.65, y: -12.1, z: 0}
   m_LocalScale: {x: 2.0581274, y: 2.037474, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24599,7 +24599,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Saw
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7875630641669711005, guid: 9b96c2a4ac381564ba0f21a213bf5987, type: 3}
+      propertyPath: m_TagString
+      value: Saw
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1962633502, guid: 9b96c2a4ac381564ba0f21a213bf5987, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9b96c2a4ac381564ba0f21a213bf5987, type: 3}
 --- !u!1 &1264425327 stripped
 GameObject:
@@ -24618,7 +24623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc81e3eb9f5548e4ca99cc69dd02c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 3
   target1: {fileID: 462896157}
   target2: {fileID: 1599015095}
 --- !u!4 &1264425330 stripped
@@ -24626,6 +24631,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7875630641669711003, guid: 9b96c2a4ac381564ba0f21a213bf5987, type: 3}
   m_PrefabInstance: {fileID: 1264425326}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &1264425331
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264425327}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0
 --- !u!1 &1273340019
 GameObject:
   m_ObjectHideFlags: 0
@@ -27722,7 +27753,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655234419}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.13, y: -0.010000229, z: 8.349357}
+  m_LocalPosition: {x: -17.5, y: 0, z: 8.349357}
   m_LocalScale: {x: 1, y: 0.54609996, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27768,7 +27799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98aeae04a5ba9b341b6202eddf9b7e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platform: {fileID: 0}
+  platform: {fileID: 492559563}
   crystalNoise: {fileID: 1910388771}
   crystalClip: {fileID: 8300000, guid: d7d3174eb11f8b84e9eaf8c8b6d48e06, type: 3}
   crystalVolume: 0.5
@@ -29634,7 +29665,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1910388767}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28.09, y: -11.258268, z: -10}
+  m_LocalPosition: {x: -29.65, y: -10.918269, z: -10}
   m_LocalScale: {x: 0.1532959, y: 0.19506691, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
