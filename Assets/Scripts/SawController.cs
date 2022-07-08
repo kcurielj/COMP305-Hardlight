@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SawController : MonoBehaviour
 {
-    public float speed = 4.0f;
+    public float speed = 4.0f, rspeed = 2.0f;
     public Transform target1, target2;
 
     Vector3 nextTarget;
@@ -28,5 +28,6 @@ public class SawController : MonoBehaviour
         }
 
         transform.position = Vector3.MoveTowards(transform.position, nextTarget, speed * Time.deltaTime);
+        transform.Rotate(0, 0, 360 * rspeed * Time.deltaTime);
     }
 }

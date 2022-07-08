@@ -182,6 +182,8 @@ public class PlayerControl : MonoBehaviour
             animator.SetBool("Jump", false);
         }
 
+        
+
         else if(collision.gameObject.tag == "Spike" || collision.gameObject.tag == "Bullet" || collision.gameObject.tag == "Saw")
         {
             FindObjectOfType<GameOverScreen>().GameOver();
@@ -200,7 +202,31 @@ public class PlayerControl : MonoBehaviour
 
         }
 
-       
+        
+ 
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision) {
+
+        if(collision.gameObject.tag == "Climbable")
+        {
+            isJumping = false;
+            animator.SetBool("Jump", false);
+            animator.SetBool("Grab", true);
+            animator.SetFloat("Speed",0);
+            
+        }
+        
+    }
+
+    private void OnCollisionExit2D(Collision2D collision) {
+         if(collision.gameObject.tag == "Climbable")
+        {
+            isJumping = true;
+            animator.SetBool("Jump", true);
+            animator.SetBool("Grab", false);
+            
+        }
     }
 
     

@@ -10,6 +10,7 @@ TagManager:
   - Platform
   - Bullet
   - Saw
+  - Climbable
   layers:
   - Default
   - TransparentFX

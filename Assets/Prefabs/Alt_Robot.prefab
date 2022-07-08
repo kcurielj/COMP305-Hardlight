@@ -345,7 +345,7 @@ MonoBehaviour:
   horizontalMov: 0
   verticalMov: 0
   speed: 5
-  jumpforce: 180
+  jumpforce: 200
   isJumping: 0
   xWallForce: 10
   yWallForce: 15
