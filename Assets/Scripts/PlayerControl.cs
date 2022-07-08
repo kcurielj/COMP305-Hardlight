@@ -110,12 +110,6 @@ public class PlayerControl : MonoBehaviour
             }
         }
 
-        if(wallJump == true)
-        {
-            Debug.Log("wall jump is true!" + wallJump);
-
-            rb2d.AddForce(new Vector2(xWallForce * -horizontalMov, yWallForce));
-        }
 
         isTouchingFront = Physics2D.OverlapCircle(frontCheck.position, groundCheckRadius, whatIsClimbable);
 
@@ -149,6 +143,14 @@ public class PlayerControl : MonoBehaviour
         if (horizontalMov > 0.1f || horizontalMov < -0.1f)
         {
             rb2d.AddForce(new Vector2(horizontalMov * speed, 0f), ForceMode2D.Impulse);
+        }
+
+
+        if (wallJump == true)
+        {
+            Debug.Log("wall jump is true!" + wallJump);
+
+            rb2d.AddForce(new Vector2(xWallForce * -horizontalMov, yWallForce));
         }
 
         isGrounded = GroundCheck();
