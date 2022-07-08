@@ -10497,7 +10497,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.9332162, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -11236,6 +11236,14 @@ PrefabInstance:
       propertyPath: deathNoise
       value: 
       objectReference: {fileID: 465539139}
+    - target: {fileID: 5065966320019113231, guid: 05fb880ef8bc2de4e9d70b3d4e8f0225, type: 3}
+      propertyPath: xWallForce
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065966320019113231, guid: 05fb880ef8bc2de4e9d70b3d4e8f0225, type: 3}
+      propertyPath: yWallForce
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 5065966320019113231, guid: 05fb880ef8bc2de4e9d70b3d4e8f0225, type: 3}
       propertyPath: whatIsGround.m_Bits
       value: 128

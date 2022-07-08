@@ -105,12 +105,15 @@ public class PlayerControl : MonoBehaviour
             if (wallSliding)
             {
                 wallJump = true;
+                Debug.Log("wall jump " + wallJump);
                 Invoke("setWallJumpToFalse", wallJumpTime);
             }
         }
 
         if(wallJump == true)
         {
+            Debug.Log("wall jump is true!" + wallJump);
+
             rb2d.AddForce(new Vector2(xWallForce * -horizontalMov, yWallForce));
         }
 
