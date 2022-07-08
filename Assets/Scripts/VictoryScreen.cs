@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class VictoryScreen : MonoBehaviour
 {
     public GameObject victoryScreenUI;
-
+    
     public void WinScreen()
     {
         victoryScreenUI.SetActive(true);
@@ -15,12 +15,23 @@ public class VictoryScreen : MonoBehaviour
     {
 
         SceneManager.LoadScene("MainMenu");
-        Time.timeScale = 1f;
+        //Time.timeScale = 1f;
 
     }
     public void Restart()
     {
-        Application.LoadLevel("HardlightLevel1");
-        Time.timeScale = 1f;
+        Application.LoadLevel(SceneManager.GetActiveScene().name);
+        //Time.timeScale = 1f;
+    }
+
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void RestartGame()
+    {
+        Application.LoadLevel(1);
+        //Time.timeScale = 1f;
     }
 }
