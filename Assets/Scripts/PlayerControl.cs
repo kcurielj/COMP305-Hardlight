@@ -29,7 +29,23 @@ public class PlayerControl : MonoBehaviour
     public float jumpforce;
     public bool isJumping = false;
     bool facingRight = true;
+
+    bool wallJump;
+    public float xWallForce;
+    public float yWallForce;
+    public float wallJumpTime;
+
     //private bool m_FacingRight = true;  
+    [SerializeField]
+    private bool isTouchingFront;
+    public Transform frontCheck;
+    [SerializeField]
+    private bool wallSliding;
+    [SerializeField]
+    private float wallSlidingSpeed;
+    [SerializeField] private LayerMask whatIsClimbable;
+
+
 
     [SerializeField] private float groundCheckRadius = 0.15f;
     [SerializeField] private Transform groundCheckPos;
@@ -68,7 +84,7 @@ public class PlayerControl : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.W))
         {
-            if (isGrounded)
+            if (isGrounded && !wallSliding)
             {
                 Debug.Log("isJumping");
 
@@ -77,13 +93,41 @@ public class PlayerControl : MonoBehaviour
                 isDoubleJumpingEnabled = true;
             }
 
-            else if (isDoubleJumpingEnabled)
+            else if (isDoubleJumpingEnabled && !wallSliding)
             {
                 rb2d.AddForce(new Vector2(0.0f, jumpforce * speed));
                 isGrounded = false;
                 isDoubleJumpingEnabled = false;
 
             }
+
+
+            if (wallSliding)
+            {
+                wallJump = true;
+                Invoke("setWallJumpToFalse", wallJumpTime);
+            }
+        }
+
+        if(wallJump == true)
+        {
+            rb2d.AddForce(new Vector2(xWallForce * -horizontalMov, yWallForce));
+        }
+
+        isTouchingFront = Physics2D.OverlapCircle(frontCheck.position, groundCheckRadius, whatIsClimbable);
+
+        if(isTouchingFront == true && isGrounded == false && horizontalMov != 0)
+        {
+            wallSliding = true;
+        }
+        else
+        {
+            wallSliding = false;
+        }
+
+        if(wallSliding)
+        {
+            rb2d.velocity = new Vector2(rb2d.velocity.x, Mathf.Clamp(rb2d.velocity.y, -wallSlidingSpeed, float.MaxValue));
         }
 
     }
@@ -110,9 +154,14 @@ public class PlayerControl : MonoBehaviour
 
     }
 
+    void setWallJumpToFalse()
+    {
+        wallJump = false;
+    }
+
     private bool GroundCheck()
     {
-        return Physics2D.OverlapCircle(groundCheckPos.position, groundCheckRadius, whatIsGround);
+        return Physics2D.OverlapCircle(groundCheckPos.position, groundCheckRadius, whatIsGround) && !wallSliding;
     }
 
     private void Flip()

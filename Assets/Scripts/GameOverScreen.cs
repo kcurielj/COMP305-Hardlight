@@ -26,7 +26,7 @@ public class GameOverScreen : MonoBehaviour
     }
     public void Restart()
     {
-        Application.LoadLevel("HardlightLevel1");
+        Application.LoadLevel(SceneManager.GetActiveScene().name);
         Time.timeScale = 1f;
     }
 }
