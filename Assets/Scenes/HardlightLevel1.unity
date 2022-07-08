@@ -5666,11 +5666,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &723075796 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1114473419910619199, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
-  m_PrefabInstance: {fileID: 1114473419663801541}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &731208596
 GameObject:
   m_ObjectHideFlags: 0
@@ -5876,7 +5871,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 723075796}
+  m_Follow: {fileID: 1071936795}
   m_Lens:
     FieldOfView: 43
     OrthographicSize: 4.028879
@@ -25366,7 +25361,7 @@ Transform:
   m_Children:
   - {fileID: 175910776}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1468940937
 GameObject:
@@ -27000,7 +26995,7 @@ Transform:
   - {fileID: 211946526}
   - {fileID: 1199570286}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1609382719
 GameObject:
@@ -29553,7 +29548,7 @@ Transform:
   - {fileID: 1778098789}
   - {fileID: 1476645877}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1893703891
 GameObject:
@@ -29854,7 +29849,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1910388767}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.06, y: -11.008268, z: -10}
+  m_LocalPosition: {x: -29.65, y: -10.828269, z: -10}
   m_LocalScale: {x: 0.1532959, y: 0.19506691, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31196,7 +31191,7 @@ Transform:
   - {fileID: 1503039552}
   - {fileID: 1650721263}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2090135733
 GameObject:
@@ -31557,9 +31552,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alt_Robot
       objectReference: {fileID: 0}
+    - target: {fileID: 1114473419910619186, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1114473419910619199, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1114473419910619199, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31669,7 +31668,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5065966320019113224, guid: 05fb880ef8bc2de4e9d70b3d4e8f0225, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5065966320019113224, guid: 05fb880ef8bc2de4e9d70b3d4e8f0225, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31717,7 +31716,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5065966320019113226, guid: 05fb880ef8bc2de4e9d70b3d4e8f0225, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5065966320019113231, guid: 05fb880ef8bc2de4e9d70b3d4e8f0225, type: 3}
       propertyPath: jumpNoise
