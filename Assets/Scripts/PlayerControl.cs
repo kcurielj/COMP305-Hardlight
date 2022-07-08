@@ -116,6 +116,8 @@ public class PlayerControl : MonoBehaviour
         if(isTouchingFront == true && isGrounded == false && horizontalMov != 0)
         {
             wallSliding = true;
+            animator.SetBool("Jump", false);
+            animator.SetBool("Grab", true);
         }
         else
         {
@@ -162,6 +164,7 @@ public class PlayerControl : MonoBehaviour
     void setWallJumpToFalse()
     {
         wallJump = false;
+        animator.SetBool("Grab", false);
     }
 
     private bool GroundCheck()

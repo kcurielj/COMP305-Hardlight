@@ -156,7 +156,7 @@ Transform:
   m_GameObject: {fileID: 1114473419910619186}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -26.892933, y: -12.339669, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9076, y: 0.8568, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1114473419803652493}
@@ -231,8 +231,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.044606596, y: 0.08162594}
-  m_Size: {x: 0.3759243, y: 1.2393131}
+  m_Offset: {x: 0.00878191, y: 0.08162594}
+  m_Size: {x: 0.38616085, y: 1.2393131}
   m_Direction: 0
 --- !u!95 &1114473419910619193
 Animator:
@@ -345,10 +345,10 @@ MonoBehaviour:
   horizontalMov: 0
   verticalMov: 0
   speed: 5
-  jumpforce: 200
+  jumpforce: 180
   isJumping: 0
-  xWallForce: 10
-  yWallForce: 15
+  xWallForce: 100
+  yWallForce: 150
   wallJumpTime: 0.1
   isTouchingFront: 0
   frontCheck: {fileID: 80249946}
