@@ -758,7 +758,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled 1_30
+      name: grab
       rect:
         serializedVersion: 2
         x: 33
@@ -779,7 +779,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled 1_31
+      name: grab0
       rect:
         serializedVersion: 2
         x: 157
@@ -1042,6 +1042,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Untitled 1_21: 722085044
+      grab: 960585430
       Untitled 1_36: -767440343
       Untitled 1_17: 1408176732
       run3: 1970874319
@@ -1056,9 +1057,9 @@ TextureImporter:
       Untitled 1_18: 474304354
       Untitled 1_16: 323299770
       Untitled 1_38: 860664465
-      Untitled 1_31: -1840825366
       Untitled 1_15: -506402189
       Untitled 1_35: 793794650
+      grab0: -1840825366
       Untitled 1_37: 1969637487
       Untitled 1_26: -1735234781
       Untitled 1_24: 960280266
@@ -1073,7 +1074,6 @@ TextureImporter:
       Untitled 1_25: -923590610
       Untitled 1_40: -1007751321
       Untitled 1_41: -446524542
-      Untitled 1_30: 960585430
       idle3: -889568246
       idle4: -749762225
       run6: -1286659861

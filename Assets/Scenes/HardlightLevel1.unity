@@ -5708,6 +5708,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &723075796 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1114473419910619199, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
+  m_PrefabInstance: {fileID: 1114473419663801541}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &731208596
 GameObject:
   m_ObjectHideFlags: 0
@@ -5913,7 +5918,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 1071936795}
+  m_Follow: {fileID: 723075796}
   m_Lens:
     FieldOfView: 43
     OrthographicSize: 4.028879
@@ -5923,7 +5928,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.1420233, y: 1}
+    m_SensorSize: {x: 0.90077823, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -25473,11 +25478,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 2135180216}
---- !u!4 &1431363549 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5065966321789939662, guid: 05fb880ef8bc2de4e9d70b3d4e8f0225, type: 3}
-  m_PrefabInstance: {fileID: 5065966320931139603}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1452674180
 GameObject:
   m_ObjectHideFlags: 0
@@ -29768,7 +29768,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1910388767}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.65, y: -10.828269, z: -10}
+  m_LocalPosition: {x: -29.06, y: -11.008268, z: -10}
   m_LocalScale: {x: 0.1532959, y: 0.19506691, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31110,7 +31110,7 @@ Transform:
   - {fileID: 1503039552}
   - {fileID: 1650721263}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2090135733
 GameObject:
@@ -31451,49 +31451,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1114473419910619186, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
-      propertyPath: m_Name
-      value: Alt_Robot
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114473419910619186, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114473419910619192, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
-      propertyPath: speed
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114473419910619192, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
+    - target: {fileID: 723075798, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
       propertyPath: jumpNoise
       value: 
       objectReference: {fileID: 1910388771}
-    - target: {fileID: 1114473419910619192, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
+    - target: {fileID: 723075798, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
       propertyPath: landNoise
       value: 
       objectReference: {fileID: 1910388771}
-    - target: {fileID: 1114473419910619192, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
+    - target: {fileID: 723075798, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
       propertyPath: walkNoise
       value: 
       objectReference: {fileID: 1910388771}
-    - target: {fileID: 1114473419910619192, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
+    - target: {fileID: 723075798, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
       propertyPath: deathNoise
       value: 
       objectReference: {fileID: 1910388771}
-    - target: {fileID: 1114473419910619192, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
-      propertyPath: groundCheckPos
-      value: 
-      objectReference: {fileID: 1431363549}
-    - target: {fileID: 1114473419910619195, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
-      propertyPath: m_LinearDrag
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114473419910619195, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
-      propertyPath: m_GravityScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1114473419910619196, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
-      propertyPath: m_Enabled
-      value: 1
+    - target: {fileID: 1114473419910619186, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
+      propertyPath: m_Name
+      value: Alt_Robot
       objectReference: {fileID: 0}
     - target: {fileID: 1114473419910619199, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
       propertyPath: m_RootOrder
@@ -31501,11 +31477,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1114473419910619199, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -26.892933
+      value: -29.06
       objectReference: {fileID: 0}
     - target: {fileID: 1114473419910619199, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.339669
+      value: -12.19
       objectReference: {fileID: 0}
     - target: {fileID: 1114473419910619199, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -31550,7 +31526,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5065966320019113224, guid: 05fb880ef8bc2de4e9d70b3d4e8f0225, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5065966320019113224, guid: 05fb880ef8bc2de4e9d70b3d4e8f0225, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31595,6 +31571,10 @@ PrefabInstance:
     - target: {fileID: 5065966320019113226, guid: 05fb880ef8bc2de4e9d70b3d4e8f0225, type: 3}
       propertyPath: m_Name
       value: Robot
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065966320019113226, guid: 05fb880ef8bc2de4e9d70b3d4e8f0225, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5065966320019113231, guid: 05fb880ef8bc2de4e9d70b3d4e8f0225, type: 3}
       propertyPath: jumpNoise
