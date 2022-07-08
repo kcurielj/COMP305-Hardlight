@@ -177,8 +177,8 @@ MonoBehaviour:
   speed: 5
   jumpforce: 180
   isJumping: 0
-  xWallForce: 10
-  yWallForce: 15
+  xWallForce: 100
+  yWallForce: 150
   wallJumpTime: 0.1
   isTouchingFront: 0
   frontCheck: {fileID: 5065966320148966491}
