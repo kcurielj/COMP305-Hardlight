@@ -191,7 +191,7 @@ MonoBehaviour:
   groundCheckPos: {fileID: 5065966321789939662}
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 384
   isDoubleJumpingEnabled: 0
 --- !u!70 &5065966320019113265
 CapsuleCollider2D:
