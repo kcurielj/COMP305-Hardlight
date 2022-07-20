@@ -103,6 +103,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2099644616611546051}
     m_Modifications:
+    - target: {fileID: 62039848759110212, guid: 9b96c2a4ac381564ba0f21a213bf5987, type: 3}
+      propertyPath: m_Radius
+      value: 0.1519816
+      objectReference: {fileID: 0}
+    - target: {fileID: 62039848759110212, guid: 9b96c2a4ac381564ba0f21a213bf5987, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0003975507
+      objectReference: {fileID: 0}
+    - target: {fileID: 62039848759110212, guid: 9b96c2a4ac381564ba0f21a213bf5987, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0030707694
+      objectReference: {fileID: 0}
+    - target: {fileID: 62039848759110212, guid: 9b96c2a4ac381564ba0f21a213bf5987, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7875630641669711003, guid: 9b96c2a4ac381564ba0f21a213bf5987, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -184,32 +200,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7875630641669711005, guid: 9b96c2a4ac381564ba0f21a213bf5987, type: 3}
   m_PrefabInstance: {fileID: 2099644617127490851}
   m_PrefabAsset: {fileID: 0}
---- !u!61 &2099644617127490878
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8099921776900198846}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
-    newSize: {x: 0.32, y: 0.32}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.32}
-  m_EdgeRadius: 0
 --- !u!114 &2099644617127490877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,5 +213,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  rspeed: 2
   target1: {fileID: 2099644618474475600}
   target2: {fileID: 2099644617327863034}

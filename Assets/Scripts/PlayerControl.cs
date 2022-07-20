@@ -183,7 +183,7 @@ public class PlayerControl : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Ground")
+        if(collision.gameObject.tag == "Ground" || collision.gameObject.tag == "ClimbableWalls")
         {
             landNoise.PlayOneShot(landClip, landVolume);
             isJumping = false;
@@ -202,7 +202,7 @@ public class PlayerControl : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "ClimbableWalls")
         {
             isJumping = true;
             animator.SetBool("Jump", true);
