@@ -479,7 +479,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.3398821, y: 1}
+    m_SensorSize: {x: 2.1713061, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -496,7 +496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198201708}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.2884374, y: -3.1973257, z: -10}
+  m_LocalPosition: {x: -6.3002377, y: -3.1973257, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2271,6 +2271,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 723075798, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
+      propertyPath: jumpClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 76e761c61bacf8a4a975d293d62607e8, type: 3}
+    - target: {fileID: 723075798, guid: efa238ea0f7596d4a8ff665876a7191c, type: 3}
       propertyPath: jumpNoise
       value: 
       objectReference: {fileID: 839608282}
@@ -2415,7 +2419,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839608278}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.2884374, y: -3.1973257, z: -10}
+  m_LocalPosition: {x: -6.3002377, y: -3.1973257, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
