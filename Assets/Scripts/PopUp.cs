@@ -39,7 +39,6 @@ public class PopUp : MonoBehaviour
       if (other.name == "Robot")
         {
             TurnOffMessage();
-            this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
         }
    }
  

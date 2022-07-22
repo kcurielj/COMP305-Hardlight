@@ -121,6 +121,7 @@ public class PlayerControl : MonoBehaviour
         }
         else
         {
+            animator.SetBool("Grab", false);
             wallSliding = false;
         }
 

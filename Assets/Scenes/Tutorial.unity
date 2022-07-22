@@ -1462,8 +1462,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1824530137
+  m_SortingLayer: -3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7772389915401389185, guid: 293c77755f5d0434aa19ace169e0361e, type: 3}
   m_Color: {r: 0.40988785, g: 0.5754717, b: 0.49886563, a: 1}
@@ -3900,7 +3900,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: -1824530137
+  m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!1 &868152993
@@ -36343,7 +36343,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.4453962, y: 1}
+    m_SensorSize: {x: 1.9332162, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
